@@ -1,0 +1,217 @@
+body{
+    background-color: #F1F1F1;
+}
+.navbar > span { /*only direct child of navbar because .r affect with its parent */
+  padding: 20px;
+  color : white ;/*all nav text*/ 
+
+}
+.navbar {
+  background-image: url("background.png");
+  width : 100%;
+  height: 600px;
+  border-top-left-radius :2%;
+  border-top-right-radius :2%;
+
+}
+
+.address {
+  font: bold 30px tahoma;
+  margin-right: 70px;
+}
+
+.r {
+  font-size: 0.7em;
+  
+}
+
+
+.parg1 {
+   display: inline-block;
+  vertical-align: top;
+   margin : 15px 700px 0 50px ;
+   font: bold 25px Arial;
+}
+.parg2 {
+   display: inline-block;
+   vertical-align: top;
+   font: bolder 85px Tahoma;   /* weight → size → family */
+   margin : 15px 7px 0 10px ;
+}
+button {
+  border-radius: 18px;       /* Rounded corners */
+  background-color:white ;
+  font:  16px Arial;
+  padding : 10px;
+  display: block;
+  margin: 0 50px;
+}
+
+.line-cards { /*the whole line of cards */
+  padding: 24px; 
+  margin :0 1%; 
+  height : 600px;        
+ 
+}
+.card{ /*apply on each card*/
+    vertical-align: top;  /*in the class / in the paragraph */ 
+    display: inline-block;
+    height : 700px;
+    width :30%; /*of the parent ==as block with the full so 30% of the screen */ 
+    margin : 0 21px ;
+}
+.card img {
+    height : 400px;
+    width : 100%;
+}
+.card p {
+    height :auto;
+    width : 100%;
+
+}
+
+.paralines{
+   height : 400px;
+   margin : 0 50px;
+}
+
+.parline{ /*no need to style the paraghrph alone , headers alone */ 
+    vertical-align: top;
+    display: inline-block;
+    height : 400px;
+    width : 30%;
+    padding :20px;
+    font-family : Georgia;
+}
+a {
+    color : black;
+text-decoration-color:black;
+font-family : Georgia ; 
+}
+.wilsontitle{
+    font-family:  'Lobster';
+}
+.circle{
+    display : inline-block;
+    width :30px;
+    height : 30px;
+    border-radius: 50%;
+    background-color:  rgb(139, 34, 83); /*to fill the circle , instead of border solid*/
+}
+
+
+.block2 , .block3 {
+    background-color: #333333;
+}
+.block1 h1 
+{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 0 500px 0 50px;
+  width: 400px;
+  
+
+}
+.block2 h1, 
+.block3 h1
+{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 0 500px 0 50px;
+  width: 400px;
+  color :rgb(139, 34, 118);
+  
+
+}
+
+.block1 img,
+.block2 img,
+.block3 img {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  height: 400px;
+}
+
+
+.adds {
+    margin: 20px 0;
+    height: 200px;
+    position: relative;
+}
+
+.adds img {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 170px;
+}
+
+.adds .text {
+    position: absolute; /* place text beside image */
+    left: 35%; /* image width + margin */
+    top: 0;
+    width: 60%;
+    height: 170px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.adds .text p:first-child {
+    margin-top: 0; /* first paragraph top */
+}
+
+.adds .text p:last-child {
+    position: absolute;
+    bottom: 0; /* second paragraph at bottom */
+    margin: 0;
+}
+
+.finall {
+    background-color: #333333;
+    
+    height: 300px;
+    border-bottom-left-radius :20px;
+    border-bottom-right-radius :20px;
+
+}
+
+.finish .par1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 900px;
+    margin-left :20px;
+    font-size:50px;
+    font-weight: bold;
+    color :white ;
+}
+
+.finish .par2 {
+    display: inline-block;
+    vertical-align: top;
+    font-size:30px;
+    color : white; 
+
+    
+}
+
+.finish a {
+    color : white ; 
+    text-decoration-color: white;
+}
+.foot div {
+    display: inline-block;
+    margin : 0 20px 0 0 ;
+    font :  15px Tahoma ;
+    color : white ;
+}
+
+
+.foot span {
+    vertical-align: middle;
+}
+.foot .footfirst {
+    margin : 0 800px 0 0 ;
+}
